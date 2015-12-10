@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test REST API</title>
+		<style media="screen">
+			.wrapper {
+				display: flex;
+				align-items: flex-start;
+			}
+			.posts {
+				min-width: 240px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Testing the REST API</h1>
+		<section class="wrapper">
+			<ul class="posts"></ul>
+			<section class="content"></section>
+		</section>
+	</body>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		'use strict';
+
+		$.ajax({
+			'url': 'http://restapiplayground.dev/wp-json/wp/v2/posts'
+		}).done(function (response) {
+			var items = [];
+
+			// Check that we got back posts
+			if (response.length) {
+				$.each(response, function (index, val) {
+					var postID = val.id;
+					var postLink = encodeURI(val.link);
+					var postTitle = val.title.rendered;
+					items.push('<li data-id="' + postID + '" data-link="' + postLink + '"><a href="#">' + postTitle + '</a></li>');
+				});
+			}
+			$('.posts').append(items);
+		});
+
+		$('.posts').on('click', 'li', function(e) {
+			e.preventDefault();
+
+			// Hit the REST API and get the post content
+			$.ajax({
+				'url': 'http://restapiplayground.dev/wp-json/wp/v2/posts/' + $(this).data('id')
+			}).done(function (response) {
+				var $content = $('.content').empty();
+				var postTitle = '<h2>' + response.title.rendered + '</h2>';
+				var postContent = response.content.rendered;
+				$content.append(postTitle + postContent);
+			});
+		})
+	</script>
+</html>

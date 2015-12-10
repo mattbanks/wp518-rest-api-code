@@ -1,0 +1,49 @@
+[01-Dec-2015 18:10:02 UTC] PHP Strict Standards:  Redefining already defined constructor for class WXR_Parser_Regex in /srv/www/restapiplayground/htdocs/wp-content/plugins/wordpress-importer/parsers.php on line 408
+[01-Dec-2015 18:10:02 UTC] PHP Strict Standards:  Declaration of WP_Import::bump_request_timeout() should be compatible with WP_Importer::bump_request_timeout($val) in /srv/www/restapiplayground/htdocs/wp-content/plugins/wordpress-importer/wordpress-importer.php on line 38
+[01-Dec-2015 18:15:16 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:15:16 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:15:16 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:15:16 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:15:16 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:19:47 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:19:47 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:19:47 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:19:47 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:19:47 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:08 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:08 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:08 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:08 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:08 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:12 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:12 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:12 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:12 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:12 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:17 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:17 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:17 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:17 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:17 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:19 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:19 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:19 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:19 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:20:19 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:22:09 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:22:09 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:22:09 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:22:09 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[01-Dec-2015 18:22:09 UTC] XDebug could not open the remote debug file '/tmp/xdebug-remote.log'.
+[09-Dec-2015 20:52:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /srv/www/restapiplayground/htdocs/wp-content/plugins/mb_metadata_rest.php on line 11
+[09-Dec-2015 20:52:04 UTC] PHP Stack trace:
+[09-Dec-2015 20:52:04 UTC] PHP   1. {main}() /srv/www/restapiplayground/htdocs/wp-admin/plugins.php:0
+[09-Dec-2015 20:52:04 UTC] PHP   2. activate_plugin($plugin = 'mb_metadata_rest.php', $redirect = 'http://restapiplayground.dev/wp-admin/plugins.php?error=true&plugin=mb_metadata_rest.php', $network_wide = FALSE, $silent = *uninitialized*) /srv/www/restapiplayground/htdocs/wp-admin/plugins.php:42
+[09-Dec-2015 20:52:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /srv/www/restapiplayground/htdocs/wp-content/plugins/mb_metadata_rest.php on line 11
+[09-Dec-2015 20:52:04 UTC] PHP Stack trace:
+[09-Dec-2015 20:52:04 UTC] PHP   1. {main}() /srv/www/restapiplayground/htdocs/wp-admin/plugins.php:0
+[09-Dec-2015 20:52:04 UTC] PHP   2. plugin_sandbox_scrape($plugin = 'mb_metadata_rest.php') /srv/www/restapiplayground/htdocs/wp-admin/plugins.php:164
+[09-Dec-2015 20:52:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /srv/www/restapiplayground/htdocs/wp-content/plugins/mb_metadata_rest.php on line 11
+[09-Dec-2015 20:52:04 UTC] PHP Stack trace:
+[09-Dec-2015 20:52:04 UTC] PHP   1. {main}() /srv/www/restapiplayground/htdocs/wp-admin/plugins.php:0
+[09-Dec-2015 20:52:04 UTC] PHP   2. plugin_sandbox_scrape($plugin = 'mb_metadata_rest.php') /srv/www/restapiplayground/htdocs/wp-admin/plugins.php:164
